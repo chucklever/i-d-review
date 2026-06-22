@@ -1,0 +1,8 @@
+{
+  "name": "i-d-review",
+  "description": "IETF Internet-Draft authoring and review. Covers BCP 14 normative language, citation verification, document structure, WG adoption criteria, bis-document scope, and the end-to-end review workflow.",
+  "author": {
+    "name": "Chuck Lever",
+    "email": "cel-ietf@chucklever.net"
+  }
+}
