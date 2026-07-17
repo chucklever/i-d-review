@@ -16,7 +16,9 @@ change control transfers to the IETF.
 - **RFC 7221** "Handling of Internet-Drafts by IETF Working
   Groups". Informational, 2014. Not normative, but widely
   treated as the practical reference. §2 covers the
-  adoption sequence, §2.2 lists the adoption criteria.
+  adoption sequence, §2.2 lists the adoption criteria, §4
+  covers document stability and the change constraints an
+  adopted draft inherits from the charter.
 - **RFC 8179** (BCP 79) for IPR disclosure obligations.
 
 ## Adoption criteria (RFC 7221 §2.2)
@@ -87,6 +89,57 @@ explicit. Sometimes yes; sometimes the WG selects new or
 additional editors. The process within a WG can be quite
 different from the process that created the personal draft,
 and continuing editors should understand that.
+
+## Document stability and change constraints (RFC 7221 §4)
+
+Adoption fixes the starting point, not the latitude the WG
+has to change it. The charter sets the role of the basis
+document, which can range from a set of ideas offered as
+input to WG discussion up to an advanced draft subject only
+to minimal changes. RFC 7221 asks that the charter state
+this role explicitly; where it does, the adoption
+assessment inherits the change constraint from it.
+
+The charter can cast existing material in one of several
+roles, each granting a different latitude for revision:
+
+- a set of ideas, to be used or ignored;
+- a basic design, with the details still fluid;
+- a rough draft, subject to extensive revision;
+- a solid specification needing review, refinement, and
+  maybe enhancement;
+- a deployed technology whose installed base is worth
+  protecting, with some tolerance for changes that affect
+  interoperability;
+- a deployed technology for which protecting the installed
+  base is essential, including retention of core
+  interoperability.
+
+The constraint tracks the technology's place in its life
+cycle. Brand-new technology, prototyped at most, absorbs
+significant specification changes without adding much to
+development or deployment cost. A mature, widely deployed
+technology is the opposite: incompatible changes burden the
+installed base and can hinder adoption of the changes
+themselves. A solidly deployed technology can still be
+unfit at Internet scale, in which case its specification
+serves only as a starting point and undermining the
+deployed base may be appropriate.
+
+For an adoption-call assessment this sharpens criterion 4
+(does the draft provide an acceptable platform for
+continued effort?). Weigh the document's life-cycle
+position, the needs of any installed base, and the
+applicability of its technology, then surface the resulting
+change constraints as an explicit finding rather than
+leaving them implicit.
+
+Not every WG draft is adopted from an individual
+submission. A WG may create a document from scratch within
+its charter; the same criteria apply, with the added step
+that the Chairs appoint authors or editors before work can
+progress. A design team (RFC 2418 §6.5) sometimes produces
+the first version.
 
 ## Verification steps for an adoption-call assessment
 
