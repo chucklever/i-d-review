@@ -39,7 +39,10 @@ Do not guess about process mechanics — Last Call durations,
 who issues what, appeal chains, maturity-level bars. Verify
 against the cached RFCs in `~/Documents/rfcs/` (download
 procedure in CLAUDE.md) or the datatracker. A confident wrong
-statement about process costs the chair credibility.
+statement about process costs the chair credibility. To
+resolve a BCP/STD label to its current RFC or fetch a
+specific document, see the internet-draft skill's
+references/finding-rfcs-and-drafts.md.
 
 Adjudicate on the actual record. If the mailing-list thread or
 document state under judgment is not already in your context,

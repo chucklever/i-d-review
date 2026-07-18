@@ -234,6 +234,9 @@ material:
 - **bib.ietf.org**: pre-built XML reference entries.
 - **datatracker.ietf.org**: WG charters, milestones, IPR
   disclosures, draft version history.
+- **finding a document**: search endpoints, BCP/STD
+  resolution, and versioned-draft fetch URLs are in
+  finding-rfcs-and-drafts.md.
 - **rfc-editor.org/errata**: errata for published RFCs.
   Worth consulting when a draft claims to correct an
   erratum.

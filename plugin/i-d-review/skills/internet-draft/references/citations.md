@@ -103,8 +103,12 @@ Before accepting or finalizing each citation, obtain the
 referenced RFC or draft as plaintext. Use a local cache if
 your environment keeps one; otherwise fetch it from the RFC
 Editor (https://www.rfc-editor.org/rfc/rfcNNNN.txt) or the
-IETF draft archive (https://www.ietf.org/archive/id/). Then
-verify against that plaintext:
+IETF draft archive (https://www.ietf.org/archive/id/). When
+you lack the number or version — a title keyword instead of a number,
+a BCP/STD label to resolve, or an expired revision to pin
+down — the search endpoints and versioned-fetch URLs are in
+finding-rfcs-and-drafts.md. Then verify against that
+plaintext:
 
 - Exact title, authors, and date match the reference entry.
 - Any section number cited in the body text exists in the

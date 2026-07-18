@@ -100,6 +100,10 @@ pre-emptively load all of them.
   informative, downrefs, Internet-Draft references,
   citation-verification procedure):
   [references/citations.md](references/citations.md).
+- Locating a document before verifying it — searching for an
+  RFC or draft by title keyword, resolving a BCP/STD label to its
+  current RFC, or fetching a specific expired draft version:
+  [references/finding-rfcs-and-drafts.md](references/finding-rfcs-and-drafts.md).
 - Keyword semantics and BCP 14 deviations:
   [references/normative-language.md](references/normative-language.md).
 - Mandatory sections, Security/IANA red flags, front-matter
