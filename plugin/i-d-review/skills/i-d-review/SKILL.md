@@ -103,7 +103,9 @@ pre-emptively load all of them.
 - Mandatory sections, Security/IANA red flags, front-matter
   hygiene: [references/document-structure.md](references/document-structure.md).
 - Reviewing a draft end to end (orientation, front-matter,
-  citation pass, body, reporting findings):
+  citation pass, body, reporting findings), or assessing
+  readiness for WGLC advancement and reading WG consensus
+  from the mailing-list record:
   [references/review-workflow.md](references/review-workflow.md).
 - Assessing a personal draft for WG adoption (RFC 7221 §2.2
   criteria, charter and milestone verification, IPR check):
