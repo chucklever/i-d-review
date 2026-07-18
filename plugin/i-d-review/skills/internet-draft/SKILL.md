@@ -109,6 +109,10 @@ pre-emptively load all of them.
   readiness for WGLC advancement and reading WG consensus
   from the mailing-list record:
   [references/review-workflow.md](references/review-workflow.md).
+- Searching the WG mailing-list archive to read the
+  consensus record (browse vs. search endpoints, query
+  parameters, message permalinks, retrieval fallbacks):
+  [references/mailarchive-search.md](references/mailarchive-search.md).
 - Assessing a personal draft for WG adoption (RFC 7221 §2.2
   criteria, charter and milestone verification, IPR check):
   [references/wg-adoption.md](references/wg-adoption.md).

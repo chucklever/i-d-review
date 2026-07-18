@@ -148,9 +148,12 @@ wg-advancement skill's references/advancement-to-publication.md.
 
 When a review is framed as a WGLC advancement assessment,
 read the mailing list record in addition to the document
-text. The archive for most WGs is at
-mailarchive.ietf.org/arch/browse/<wgname>/. Search for
-the draft name and any WGLC or last-call subject lines.
+text. Find the thread by keyword-searching the WG's list
+archive; the browse-vs-search endpoints, query parameters,
+and message permalinks are in mailarchive-search.md. Search
+for the draft name — both the adopted `draft-ietf-` name and
+any earlier personal name — and any WG Last Call subject
+lines.
 
 This section is the participant's read of that record;
 declaring the outcome is chair work, covered by the

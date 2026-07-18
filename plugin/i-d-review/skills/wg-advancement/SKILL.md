@@ -46,7 +46,10 @@ document state under judgment is not already in your context,
 retrieve it first — the list archive at mailarchive.ietf.org and
 the document's history and ballot state at
 datatracker.ietf.org/doc/<draft>/ — then judge on what you find.
-If the record is already supplied, use it; do not re-fetch.
+For how to search the list archive and cite messages from it,
+see the internet-draft skill's
+references/mailarchive-search.md. If the record is already
+supplied, use it; do not re-fetch.
 
 ## The advancement pipeline
 
