@@ -30,9 +30,9 @@ For BCP 14 deviations specifically, see normative-language.md.
 
 For each reference entry:
 
-- Fetch the referenced document into `~/Documents/rfcs/` if
-  not already cached (see CLAUDE.md for the download
-  procedure).
+- Obtain the referenced document as plaintext: use a local
+  cache if you keep one, otherwise fetch it from
+  rfc-editor.org or the IETF draft archive.
 - Verify title, authors, and date against the cached text.
 - Verify any in-text section citations (e.g., "see §9 of
   [X]") by reading the referenced section in the cached

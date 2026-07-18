@@ -1,6 +1,6 @@
 ---
 name: internet-draft
-description: Load when authoring, editing, or reviewing IETF Internet-Drafts (files matching draft-*.md, draft-*.xml, draft-*.txt, or discussion of RFC submissions, xml2rfc, kramdown-rfc, mmark, idnits, BCP 14, WG adoption, bis documents). Covers normative language, citation verification against cached RFCs in ~/Documents/rfcs/, document structure, WG adoption criteria, bis-document scope rules, and review workflow. Do not load for general technical writing, non-IETF standards work, or discussions that merely mention an RFC in passing.
+description: Load when authoring, editing, or reviewing IETF Internet-Drafts (files matching draft-*.md, draft-*.xml, draft-*.txt, or discussion of RFC submissions, xml2rfc, kramdown-rfc, mmark, idnits, BCP 14, WG adoption, bis documents). Covers normative language, citation verification against authoritative RFC text, document structure, WG adoption criteria, bis-document scope rules, and review workflow. Do not load for general technical writing, non-IETF standards work, or discussions that merely mention an RFC in passing.
 invocation_policy: automatic
 ---
 
@@ -15,8 +15,10 @@ Internet-Drafts. The main reference material lives in
 Do not guess about normative content. When uncertain whether
 a claim requires a citation, whether a cited section number
 is correct, or whether a term has a normative definition
-elsewhere, consult the cached RFCs in `~/Documents/rfcs/`
-(download procedure in CLAUDE.md) or ask the user. A
+elsewhere, verify against the authoritative RFC or draft
+text (from rfc-editor.org or the IETF draft archive, or a
+local plaintext cache if your environment keeps one), or
+ask the user. A
 plausible-sounding citation that is wrong costs more to
 untangle later than an up-front question.
 

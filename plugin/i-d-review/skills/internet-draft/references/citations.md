@@ -99,10 +99,12 @@ implementation.
 
 ## Citation verification
 
-Before accepting or finalizing each citation, download the
-referenced RFC or draft into `~/Documents/rfcs/` if not
-already cached (see CLAUDE.md for the download procedure),
-then verify against the cached plaintext:
+Before accepting or finalizing each citation, obtain the
+referenced RFC or draft as plaintext. Use a local cache if
+your environment keeps one; otherwise fetch it from the RFC
+Editor (https://www.rfc-editor.org/rfc/rfcNNNN.txt) or the
+IETF draft archive (https://www.ietf.org/archive/id/). Then
+verify against that plaintext:
 
 - Exact title, authors, and date match the reference entry.
 - Any section number cited in the body text exists in the
