@@ -39,21 +39,6 @@ Signals, in order of reliability:
   right place. Section renumbering is the single most
   common correctness bug in multi-revision edits.
 
-## Before editing an existing draft
-
-Before modifying an existing draft, examine:
-
-- The terminology already defined in the Conventions
-  section or body text; reuse the same terms rather than
-  introducing synonyms.
-- The existing reference tags; continue the same naming
-  pattern. Some drafts use mnemonic tags like `[HTTP]`
-  rather than `[RFC9110]`; follow whichever convention the
-  draft already uses rather than mixing styles.
-- Section numbering and cross-reference consistency; after
-  adding or removing sections, verify all internal section
-  references remain correct.
-
 ## xml2rfc v3 validation
 
 Before submission, run the draft through xml2rfc to surface
