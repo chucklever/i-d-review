@@ -98,7 +98,11 @@ defect in companion-document pairs.
 
 Before a WG chair submits a document to the AD for IESG processing,
 the following must all be true. Use this checklist when a review is
-explicitly framed as a WGLC advancement assessment.
+explicitly framed as a WGLC advancement assessment. These are
+document-readiness properties a participant can verify; the chair's
+own submission gates — consensus declared, shepherd write-up
+complete, downrefs enumerated for the Last Call notice — are in the
+wg-advancement skill's references/advancement-to-publication.md.
 
 **Publication blockers (any one fails the checklist):**
 
@@ -148,12 +152,18 @@ text. The archive for most WGs is at
 mailarchive.ietf.org/arch/browse/<wgname>/. Search for
 the draft name and any WGLC or last-call subject lines.
 
-**Rough consensus standard (RFC 2026 §6.1).** Consensus is
-not unanimity and does not require a vote, but it requires
-more than the absence of response. A chair declaring rough
-consensus must be able to show that the group considered
-and genuinely weighed objections — not merely that no
-further messages arrived.
+This section is the participant's read of that record;
+declaring the outcome is chair work, covered by the
+wg-advancement skill's references/consensus-determination.md.
+
+**Rough consensus standard (RFC 2418 §3.3, RFC 7282 §6).**
+Consensus is not unanimity and does not require a vote, but
+it requires more than the absence of response. A raised
+objection is not disposed of by silence or a head count; the
+determinative question is whether the open issue was
+addressed (RFC 7282 §6). For IETF-stream documents, IETF
+rough consensus — confirmed later at IETF Last Call, not
+just within the WG — is required for publication (RFC 8789).
 
 **Identifying sustained objections.** A substantive
 objection is one that challenges the document's motivation,
@@ -184,13 +194,13 @@ version are not void, but they must be checked against the
 new version before the chair can call consensus. Flag any
 WGLC where the version under review changed mid-window.
 
-**What a chair must do to override an objection.** A chair
-may call rough consensus despite a sustained objection, but
-only by issuing an explicit consensus determination on the
-list that: (a) names the objection, (b) describes how the
-WG considered it, and (c) explains why the objection was
-not adopted. A "final call" notice that does not address
-open objections is not a consensus determination.
+**Overriding an objection is chair work.** A chair may call
+rough consensus over a sustained objection, but only with an
+explicit written determination that names it and explains the
+disposition; the requirements are in the wg-advancement
+skill's references/consensus-determination.md. As a reviewer,
+flag any "final call" that advances over an unaddressed
+objection without such a determination.
 
 **Affirmative support matters.** Note whether any WG
 participant other than the author expressed support for
