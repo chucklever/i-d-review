@@ -118,13 +118,9 @@ explicitly framed as a WGLC advancement assessment.
 **Issues that attract IESG feedback (fix before submission):**
 
 - IANA Considerations claim "no actions" when a new codepoint,
-  attribute number, or registry entry is defined — verify against
-  the actual IANA registry for the relevant protocol family. Some
-  protocol families (e.g., NFSv4 attribute numbers) manage
-  namespaces through WG coordination rather than an IANA registry;
-  in that case "no IANA actions" may be accurate, but the section
-  should briefly explain how the number was assigned and how
-  collisions are avoided. Silence on both points will draw an IESG
+  attribute number, or registry entry is defined. Run the "no IANA
+  actions" verification in document-structure.md against the
+  relevant protocol family; an unexplained claim draws an IESG
   question regardless of whether a registry exists.
 - Security Considerations delegates wholesale to another document
   for new protocol surface introduced by this draft.
