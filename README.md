@@ -1,17 +1,18 @@
 # i-d-review
 
-A [Claude Code](https://claude.ai/code) plugin for authoring and reviewing
-IETF Internet-Drafts.
+A [Claude Code](https://claude.ai/code) plugin for authoring, reviewing, and
+chairing IETF Internet-Drafts.
 
 ## What it does
 
-The plugin provides an `internet-draft` skill that loads automatically when
-Claude Code detects you are working on Internet-Draft source files
-(`draft-*.md`, `draft-*.xml`, `draft-*.txt`) or when the conversation touches
-IETF-specific topics such as xml2rfc, kramdown-rfc, mmark, idnits, BCP 14,
-WG adoption, or bis documents.
+The plugin provides three skills that load automatically from context.
 
-The skill covers:
+### `internet-draft` — authoring and reviewing drafts
+
+Loads when you are working on Internet-Draft source files (`draft-*.md`,
+`draft-*.xml`, `draft-*.txt`) or the conversation touches IETF topics such as
+xml2rfc, kramdown-rfc, mmark, idnits, BCP 14, WG adoption, or bis documents.
+Covers:
 
 - **Normative language** — BCP 14 keyword usage, required boilerplate, and
   common deviations
@@ -27,6 +28,21 @@ The skill covers:
   verification, IPR check
 - **Bis documents** — RFC 2026 §6.3, defect correction vs. new feature,
   WG-specific extension rules
+
+### `wg-advancement` — chairing a document from adoption to RFC
+
+Loads when acting as a working-group chair to advance a document: running
+adoption calls and WG Last Calls, judging and declaring rough consensus
+(RFC 2418, RFC 7282, RFC 8789), producing the document shepherd write-up
+(RFC 4858), and tracking a draft through IETF Last Call and IESG evaluation to
+publication (RFC 2026, RFC 7127, BCP 97).
+
+### `wg-management` — running the working group
+
+Loads for standing chair operations not tied to one document: charter scope
+and rechartering (RFC 2418), milestones, IPR disclosure polls (BCP 79,
+RFC 6702), meetings, and mailing-list moderation including posting suspensions
+and PR-actions (RFC 3934, RFC 3683).
 
 ## Installation
 
@@ -58,9 +74,10 @@ Restart Claude Code after installation for the plugin to take effect.
 
 ## Usage
 
-Once installed, the `internet-draft` skill activates automatically when you
-open an Internet-Draft source file or discuss IETF topics. No manual
-invocation is required.
+Once installed, the skills activate automatically from context — the
+`internet-draft` skill when you open a draft or discuss IETF document topics,
+and the `wg-advancement` and `wg-management` skills when you take on
+working-group chair tasks. No manual invocation is required.
 
 ## License
 

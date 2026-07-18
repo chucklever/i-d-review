@@ -1,6 +1,7 @@
 # i-d-review
 
-A Claude Code plugin for authoring and reviewing IETF Internet-Drafts.
+A Claude Code plugin for authoring, reviewing, and chairing IETF
+Internet-Drafts.
 
 ## Skills
 
@@ -27,6 +28,21 @@ Covers:
   verification, IPR check
 - **Bis documents** — RFC 2026 §6.3, defect correction vs. new feature,
   WG-specific extension rules
+
+### `wg-advancement`
+
+Activated when acting as a working-group chair to advance a document.
+Covers running adoption calls and WG Last Calls, judging and declaring
+rough consensus (RFC 2418, RFC 7282, RFC 8789), the document shepherd
+write-up (RFC 4858), and tracking a draft through IETF Last Call and IESG
+evaluation to publication (RFC 2026, RFC 7127, BCP 97).
+
+### `wg-management`
+
+Activated for standing chair operations not tied to one document: charter
+scope and rechartering (RFC 2418), milestones, IPR disclosure polls
+(BCP 79, RFC 6702), meetings, and mailing-list moderation including posting
+suspensions and PR-actions (RFC 3934, RFC 3683).
 
 ## Installation
 

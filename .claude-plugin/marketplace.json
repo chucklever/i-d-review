@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "i-d-review",
-  "description": "Marketplace for IETF Internet-Draft authoring and review tools",
+  "description": "Marketplace for IETF Internet-Draft authoring, review, and working-group chairing tools",
   "owner": {
     "name": "Chuck Lever",
     "email": "cel-ietf@chucklever.net"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "i-d-review",
-      "description": "IETF Internet-Draft authoring and review. Covers BCP 14 normative language, citation verification, document structure, WG adoption criteria, bis-document scope, and the end-to-end review workflow.",
+      "description": "IETF Internet-Draft authoring, review, and working-group chairing. Covers BCP 14 normative language, citation verification, document structure, WG adoption, and bis-document scope for drafts; the chair's role in document advancement (adoption calls, WG Last Call, rough-consensus determination, shepherding, IETF Last Call); and working-group management (charter, milestones, IPR, meetings, list moderation).",
       "author": {
         "name": "Chuck Lever",
         "email": "cel-ietf@chucklever.net"
