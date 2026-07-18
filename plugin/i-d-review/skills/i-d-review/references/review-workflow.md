@@ -231,14 +231,53 @@ material:
 
 ## Reporting review findings
 
-When reporting findings, distinguish:
+Report each finding on two independent axes: how severe it
+is, and how confident you are that it is real. A minor issue
+you are sure of and a blocking issue you only suspect are
+different findings; label them differently.
 
-- **Confirmed real** issues with cited evidence.
-- **Likely issues** that need author confirmation.
-- **Questions** where the draft's intent is unclear.
+**Severity** — the tiers IETF reviews already use (Gen-ART
+and directorate reviews sort findings into Major / Minor /
+Nits; IESG ballots into DISCUSS / COMMENT):
 
-Do not silently paper over a cited section number that
-turns out to be wrong, a reference classification that
-looks inverted, or boilerplate that deviates from BCP 14.
-Flag each discrepancy explicitly. See CLAUDE.md's "Code
-Review Guidelines" for the labeling convention.
+- **Blocking** — must be resolved before the draft advances:
+  a normative defect, a missing mandatory section, a citation
+  an implementer relies on that is wrong or unverifiable, or
+  BCP 14 usage that changes what an implementation must do.
+  An IESG DISCUSS.
+- **Major** — a substantive problem the author should
+  resolve: an ambiguous normative requirement, an unstated
+  assumption, a misclassified reference. Not
+  advancement-blocking on its own.
+- **Minor** — a correctness or clarity problem that does not
+  threaten interoperability: an imprecise term, a
+  cross-reference to the wrong section, a defensive SHOULD.
+- **Nit** — editorial: typo, formatting, non-normative
+  wording. Group nits together; do not interleave them with
+  substantive findings.
+
+**Confidence**:
+
+- **Confirmed** — verified against a cited source (the RFC
+  text, datatracker, the errata list). State the evidence.
+- **Likely** — consistent with the evidence but needs the
+  author to confirm intent.
+- **Question** — the draft's intent is unclear; ask rather
+  than assert a defect.
+
+Write each finding as a single scannable line, severity
+first so the blocking issues surface at the top of the
+report: location (section number, or file:line for source
+review), the defect in one sentence, the evidence, and a
+concrete recommendation. For example:
+
+    Blocking / Confirmed — §4.2 cites RFC 8446 §4.1.3 for
+    the "signature_algorithms" extension, but §4.1.3 is
+    "Server Hello"; the extension is defined in §4.2.3.
+    Verified against the cached RFC 8446. Correct the
+    section number.
+
+Do not silently paper over a cited section number that turns
+out to be wrong, a reference classification that looks
+inverted, or boilerplate that deviates from BCP 14. Flag each
+discrepancy explicitly.
