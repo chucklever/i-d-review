@@ -27,7 +27,8 @@ predecessor's content.
 
 **draft-ietf-procon-2026bis** is the active PROCON WG
 successor to RFC 2026. Its revision text carries the same
-permissive language forward (as §8.3 in recent revisions).
+permissive language forward (§8.4, "Advancing in the
+Standards Track", in draft-ietf-procon-2026bis-11).
 
 **draft-roach-bis-documents** proposed formal scope limits
 on bis documents — specifically that changes "must not
