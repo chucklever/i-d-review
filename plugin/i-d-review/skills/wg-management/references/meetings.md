@@ -26,10 +26,22 @@ rather than quoting a fixed rule here.
   cutoff so participants can prepare. An agenda is a set of
   decisions or discussions the WG needs a room for, not a
   series of author status reports.
-- Nothing is decided by virtue of being discussed in a room.
-  Consensus is confirmed on the list (RFC 2418 §3.3); a
-  meeting can surface a sense of the room, but the chair takes
-  it back to the list to confirm.
+
+## Decisions taken in a room
+
+- A decision the room reached MUST go back to the list when the
+  room took up something the list had not discussed, or departed
+  significantly from what the list had already settled (RFC 2418
+  §3.2). A room can reach consensus among the core of the WG, but
+  email permits the widest participation, and the WG's process
+  must not exclude contribution by email-only participants.
+- Where the list is verifying a consensus the room reached, the
+  agreement expressed in the room must be taken into account: a
+  large meeting's agreement that draws only a few objections on
+  the list should be seen as verified, once the list has had time
+  to consider those objections — two weeks should suffice (RFC
+  2418 §3.3). Verifying on the list is not re-running the
+  decision there.
 
 ## The record
 
