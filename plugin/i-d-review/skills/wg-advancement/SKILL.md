@@ -54,6 +54,17 @@ see the internet-draft skill's
 references/mailarchive-search.md. If the record is already
 supplied, use it; do not re-fetch.
 
+A session's minutes are part of that record, but they do not
+close a question on their own. A decision reached in a room on
+something the list has not discussed, or departing from a
+consensus the list already reached, MUST be reviewed on the
+list (RFC 2418 §3.2); where a face-to-face consensus is being
+verified on the list, the agreement expressed in the room is
+taken into account (§3.3). So cite minutes to establish what
+was raised and answered, and the list to establish what the WG
+agreed. To retrieve them, load the wg-management skill and read
+its references/finding-meeting-materials.md.
+
 ## The advancement pipeline
 
 Each gate, who acts, and where the detail lives:

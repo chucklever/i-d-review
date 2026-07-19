@@ -1,6 +1,6 @@
 ---
 name: wg-management
-description: Load when acting as an IETF working group chair on standing WG operations not tied to one document's advancement — deciding whether work is in charter scope, rechartering, setting and tracking milestones, running IPR disclosure reminders and polls, building meeting agendas and minutes, requesting sessions or interims, and moderating the WG mailing list including posting suspensions and PR-actions. Covers RFC 2418, BCP 79 / RFC 8179, RFC 6702, BCP 78, BCP 83 / RFC 3683, and RFC 3934. To advance a specific document, use the wg-advancement skill; to review a draft's technical content, use the internet-draft skill. Do not load for non-IETF group governance or general project management.
+description: Load when acting as an IETF working group chair on standing WG operations not tied to one document's advancement — deciding whether work is in charter scope, rechartering, setting and tracking milestones, running IPR disclosure reminders and polls, building meeting agendas and minutes, requesting sessions or interims, and moderating the WG mailing list including posting suspensions and PR-actions. Also load, chair or not, to retrieve a past session's minutes, agenda, slides, chatlog, or bluesheets from the datatracker or IETF proceedings, or to find what a WG decided at a numbered IETF meeting or interim. Covers RFC 2418, BCP 79 / RFC 8179, RFC 6702, BCP 78, BCP 83 / RFC 3683, and RFC 3934. To advance a specific document, use the wg-advancement skill; to review a draft's technical content, use the internet-draft skill. Do not load for non-IETF group governance or general project management.
 invocation_policy: automatic
 ---
 
@@ -46,6 +46,8 @@ pre-emptively load all of them.
   poll: references/ipr.md.
 - Meeting agendas, sessions and interims, minutes:
   references/meetings.md.
+- Retrieving a past session's agenda, minutes, or slides from
+  the datatracker: references/finding-meeting-materials.md.
 - Mailing-list moderation, posting suspensions, and PR-actions:
   references/list-admin.md.
 

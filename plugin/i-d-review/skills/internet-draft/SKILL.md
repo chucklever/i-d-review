@@ -117,6 +117,10 @@ pre-emptively load all of them.
   consensus record (browse vs. search endpoints, query
   parameters, message permalinks, retrieval fallbacks):
   [references/mailarchive-search.md](references/mailarchive-search.md).
+- Retrieving what a WG said about the draft in session —
+  minutes, agenda, or slides for a numbered IETF meeting or an
+  interim: load the wg-management skill and read its
+  references/finding-meeting-materials.md.
 - Assessing a personal draft for WG adoption (RFC 7221 §2.2
   criteria, charter and milestone verification, IPR check):
   [references/wg-adoption.md](references/wg-adoption.md).
