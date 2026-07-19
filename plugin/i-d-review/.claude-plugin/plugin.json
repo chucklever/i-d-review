@@ -1,7 +1,7 @@
 {
   "name": "i-d-review",
   "description": "IETF Internet-Draft authoring, review, and working-group chairing. Covers BCP 14 normative language, citation verification, document structure, WG adoption, and bis-document scope for drafts; the chair's role in document advancement (adoption calls, WG Last Call, rough-consensus determination, shepherding, IETF Last Call); and working-group management (charter, milestones, IPR, meetings, list moderation).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Chuck Lever",
     "email": "cel-ietf@chucklever.net"
