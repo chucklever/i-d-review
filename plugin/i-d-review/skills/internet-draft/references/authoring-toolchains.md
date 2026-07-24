@@ -25,6 +25,20 @@ Signals, in order of reliability:
 4. Figure and table fencing differ; less reliable as a
    signal because both toolchains accept several forms.
 
+## kramdown-rfc / RFCXML syntax lookup
+
+When editing kramdown-rfc source, the IETF authors'
+RFCXML/kramdown-rfc Rosetta Stone maps each xml2rfc v3
+construct to the markdown that produces it: sectioned
+citations, figures and aasvg diagrams, asides, definition
+and ordered lists, tables with anchors or column
+alignment, YAML-header fields. See:
+https://authors.ietf.org/en/rfcxml-markdown-syntax-tables
+It links the kramdown-rfc Syntax/Syntax2 docs and the
+RFCXML vocabulary reference for the full detail. The
+mapping is kramdown-rfc-specific; mmark uses different
+fencing and reference syntax.
+
 ## Before editing an existing draft
 
 - Reuse terminology already defined in the Conventions

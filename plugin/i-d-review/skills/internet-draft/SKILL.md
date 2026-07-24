@@ -94,7 +94,8 @@ Load the file whose topic matches the task. Do not
 pre-emptively load all of them.
 
 - Authoring or editing source (mmark vs kramdown-rfc,
-  xml2rfc v3 validation, idnits pre-submission lint):
+  kramdown-rfc/RFCXML syntax lookup, xml2rfc v3 validation,
+  idnits pre-submission lint):
   [references/authoring-toolchains.md](references/authoring-toolchains.md).
 - Classifying or verifying references (normative vs
   informative, downrefs, Internet-Draft references,
